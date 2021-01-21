@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69817" started-at="2019-09-03T15:47:39Z" finished-at="2019-09-03T15:48:49Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="demo" duration-ms="69817" started-at="2019-09-03T15:47:39Z" finished-at="2019-09-03T15:48:49Z">
+      <class name="com.cucumber.demo.RunCukesTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="setUpClass" is-config="true" duration-ms="293" started-at="2019-09-03T23:47:39Z" finished-at="2019-09-03T23:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="setup" is-config="true" duration-ms="108" started-at="2019-09-03T23:47:39Z" finished-at="2019-09-03T23:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="feature" duration-ms="952" started-at="2019-09-03T23:47:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-03T23:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[验证计算器计算功能]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="feature" duration-ms="23388" started-at="2019-09-03T23:47:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-03T23:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360影视登录页面参数化登录功能]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="feature" duration-ms="43892" started-at="2019-09-03T23:48:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-03T23:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360登录页面演示案例及data table使用]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="feature" duration-ms="52" started-at="2019-09-03T23:48:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-03T23:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[验证计算器多组数字计算功能]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="tearDown" is-config="true" duration-ms="233" started-at="2019-09-03T23:48:48Z" finished-at="2019-09-03T23:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.demo.RunCukesTest@366e2eef]" name="tearDownClass" is-config="true" duration-ms="598" started-at="2019-09-03T23:48:48Z" finished-at="2019-09-03T23:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.demo.RunCukesTest -->
+    </test> <!-- demo -->
+  </suite> <!-- Suite -->
+</testng-results>

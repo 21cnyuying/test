@@ -1,0 +1,1033 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#cucumber使用初探"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "打开计算器进行计算1+1",
+        "description": "",
+        "id": "验证计算器计算功能;打开计算器进行计算1+1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201292600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "打开计算器面板",
+            "match": {
+              "location": "CalculatorDemo.openCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "已经输入1并按下+",
+            "match": {
+              "location": "CalculatorDemo.alreadyInput1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5297500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "输入 \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 4
+                }
+              ],
+              "location": "CalculatorDemo.input1(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "按下\u003d",
+            "match": {
+              "location": "CalculatorDemo.pressEaualButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "等待计算",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@CalculatorTest"
+          }
+        ]
+      }
+    ],
+    "name": "验证计算器计算功能",
+    "description": "打开计算器进行计算",
+    "id": "验证计算器计算功能",
+    "keyword": "Feature",
+    "uri": "demo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#怎样实现重复输入账号密码操作的步骤"
+          }
+        ],
+        "line": 4,
+        "name": "用户打开360影视首页",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12996925700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "用户正停留在365漂漂网后台登录页",
+            "match": {
+              "location": "ParamDemo.goToCsdn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 7,
+            "value": "#输入账号密码a1/a1"
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "365漂漂网参数化登录功能;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 271717800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "用户输入用户名 \"a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a1",
+                  "offset": 9
+                }
+              ],
+              "location": "ParamDemo.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3259304600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "用户输入密码 \"a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a1",
+                  "offset": 8
+                }
+              ],
+              "location": "ParamDemo.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588993600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "登录失败提示",
+            "match": {
+              "location": "ParamDemo.checkFail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#怎样实现重复输入账号密码操作的步骤"
+          }
+        ],
+        "line": 4,
+        "name": "用户打开360影视首页",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9253963900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "用户正停留在365漂漂网后台登录页",
+            "match": {
+              "location": "ParamDemo.goToCsdn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 12,
+            "value": "#输入账号密码a2/a2"
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "365漂漂网参数化登录功能;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293421100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "用户输入用户名 \"a2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a2",
+                  "offset": 9
+                }
+              ],
+              "location": "ParamDemo.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3283261600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "用户输入密码 \"a2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a2",
+                  "offset": 8
+                }
+              ],
+              "location": "ParamDemo.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303952000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "登录失败提示",
+            "match": {
+              "location": "ParamDemo.checkFail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#怎样实现重复输入账号密码操作的步骤"
+          }
+        ],
+        "line": 4,
+        "name": "用户打开360影视首页",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8195260500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "用户正停留在365漂漂网后台登录页",
+            "match": {
+              "location": "ParamDemo.goToCsdn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 19,
+            "value": "#输入账号密码a3/a3"
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "365漂漂网参数化登录功能;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 237559300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "用户输入用户名 \"a3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a3",
+                  "offset": 9
+                }
+              ],
+              "location": "ParamDemo.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3289873500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "用户输入密码 \"a3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a3",
+                  "offset": 8
+                }
+              ],
+              "location": "ParamDemo.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357075400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "登录失败提示",
+            "match": {
+              "location": "ParamDemo.checkFail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "365漂漂网参数化登录功能",
+    "description": "",
+    "id": "365漂漂网参数化登录功能",
+    "keyword": "Feature",
+    "uri": "parm.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#cucumber+selenium+pageobject模式"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "打开365首页",
+        "description": "",
+        "id": "360登录页面演示案例及data-table使用;打开365首页;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9100745400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开chrome浏览器，进入365票票网后台登录页",
+            "match": {
+              "location": "LoginTest.openBrower()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 694620800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"xiaoqiang\" and \"1\" 并点击登录",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xiaoqiang",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginTest.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5597962400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "验证登录结果 \"密码: 3-18个字符\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "密码: 3-18个字符",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginTest.verify_result(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "打开365首页",
+        "description": "",
+        "id": "360登录页面演示案例及data-table使用;打开365首页;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8139682500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开chrome浏览器，进入365票票网后台登录页",
+            "match": {
+              "location": "LoginTest.openBrower()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581944500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"00000000\" and \"11111111\" 并点击登录",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00000000",
+                  "offset": 4
+                },
+                {
+                  "val": "11111111",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginTest.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4990825300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "验证登录结果 \"正在登录!请稍后...\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "正在登录!请稍后...",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginTest.verify_result(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "打开365首页",
+        "description": "",
+        "id": "360登录页面演示案例及data-table使用;打开365首页;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7966901200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开chrome浏览器，进入365票票网后台登录页",
+            "match": {
+              "location": "LoginTest.openBrower()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 712563900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"admin123\" and \"3\" 并点击登录",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 4
+                },
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginTest.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4952271900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "验证登录结果 \"密码: 3-18个字符\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "密码: 3-18个字符",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginTest.verify_result(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "打开365首页",
+        "description": "",
+        "id": "360登录页面演示案例及data-table使用;打开365首页;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8349639000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开chrome浏览器，进入365票票网后台登录页",
+            "match": {
+              "location": "LoginTest.openBrower()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619037600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"小明\" and \"aa\" 并点击登录",
+            "match": {
+              "arguments": [
+                {
+                  "val": "小明",
+                  "offset": 4
+                },
+                {
+                  "val": "aa",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginTest.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4578527200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "验证登录结果 \"密码: 3-18个字符\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "密码: 3-18个字符",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginTest.verify_result(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "360登录页面演示案例及data table使用",
+    "description": "360登录页面演示案例及data table使用",
+    "id": "360登录页面演示案例及data-table使用",
+    "keyword": "Feature",
+    "uri": "poDemo.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#cucumber参数化使用"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "打开计算器进行计算",
+        "description": "",
+        "id": "验证计算器多组数字计算功能;打开计算器进行计算;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 214200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开计算器进行计算",
+            "match": {
+              "location": "TestParamDemo.openCalc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1428800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"1\" and \"1\" 并计算结果",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 4
+                },
+                {
+                  "val": "1",
+                  "offset": 12
+                }
+              ],
+              "location": "TestParamDemo.addition(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "计算结果  \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 7
+                }
+              ],
+              "location": "TestParamDemo.verify_result(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "打开计算器进行计算",
+        "description": "",
+        "id": "验证计算器多组数字计算功能;打开计算器进行计算;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 382900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开计算器进行计算",
+            "match": {
+              "location": "TestParamDemo.openCalc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 485500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"2\" and \"2\" 并计算结果",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 4
+                },
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "TestParamDemo.addition(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "计算结果  \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 7
+                }
+              ],
+              "location": "TestParamDemo.verify_result(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "打开计算器进行计算",
+        "description": "",
+        "id": "验证计算器多组数字计算功能;打开计算器进行计算;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 163300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开计算器进行计算",
+            "match": {
+              "location": "TestParamDemo.openCalc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"3\" and \"3\" 并计算结果",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 4
+                },
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "TestParamDemo.addition(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "计算结果  \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 7
+                }
+              ],
+              "location": "TestParamDemo.verify_result(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "打开计算器进行计算",
+        "description": "",
+        "id": "验证计算器多组数字计算功能;打开计算器进行计算;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 376400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开计算器进行计算",
+            "match": {
+              "location": "TestParamDemo.openCalc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 483200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"4\" and \"4\" 并计算结果",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 4
+                },
+                {
+                  "val": "4",
+                  "offset": 12
+                }
+              ],
+              "location": "TestParamDemo.addition(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "计算结果  \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 7
+                }
+              ],
+              "location": "TestParamDemo.verify_result(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "打开计算器进行计算",
+        "description": "",
+        "id": "验证计算器多组数字计算功能;打开计算器进行计算;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 383200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开计算器进行计算",
+            "match": {
+              "location": "TestParamDemo.openCalc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "输入 \"5\" and \"5\" 并计算结果",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 4
+                },
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "TestParamDemo.addition(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "计算结果  \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 7
+                }
+              ],
+              "location": "TestParamDemo.verify_result(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "验证计算器多组数字计算功能",
+    "description": "打开计算器进行计算",
+    "id": "验证计算器多组数字计算功能",
+    "keyword": "Feature",
+    "uri": "testParamDemo.feature"
+  }
+]
